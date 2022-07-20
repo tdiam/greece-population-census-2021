@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "greece-population-census-2021"
+version = "0.1.0"
+description = "Data for Population Census 2021 in Greece"
+authors = ["Theo Diamantidis <diamaltho@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+camelot-py = {extras = ["base"], version = "^0.10.1"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
