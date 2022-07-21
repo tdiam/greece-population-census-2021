@@ -12,7 +12,7 @@ NOTE: The census results are still provisional. As per the Authority (p. 61), lo
 * [Administrative region populations (Περιφέρειες)](data/adm_regions/populations.csv)
 
 Data is currently available in CSV format and includes the following fields:
-* Area code (ELSTAT code for municipalities, NUTS2 2021 for administrative regions).
+* Area code ([ELSTAT](https://www.statistics.gr/statistics/-/publication/SKA01/-) code for municipalities, [NUTS2 2021](https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1571919890809&uri=CELEX:32019R1755) for administrative regions).
 * Area name.
 * 2021 & 2011 total population.
 * 2021 & 2011 male population.
