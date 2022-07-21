@@ -28,13 +28,13 @@ Data is currently available in CSV format and includes the following fields:
 poetry install
 
 # Extract raw CSV for administrative regions from page 9
-poetry run camelot -p 9 -f csv -o data/raw/csv/adm.csv lattice -back -shift "" -scale 60 data/raw/booklet.pdf
+poetry run camelot -p 9 -f csv -o data/raw/csv/adm.csv lattice -back -shift "" -scale 60 data/raw/NWS_Census_results_BOOKLET_19072022_GR.pdf
 
 # Post-process
 poetry run python extraction/extract_adm_regions.py
 
 # Extract raw CSV for municipalities from the pages below
-poetry run camelot -p 12,13,15,16,17,19,20,22,23,25,26,28,29,31,32,34,35,37,38,39,41,42,43,44,46,47,49,50,51,52,53,55,56 -f csv -o data/raw/csv/mun.csv lattice -back -shift "" -scale 60 data/raw/booklet.pdf
+poetry run camelot -p 12,13,15,16,17,19,20,22,23,25,26,28,29,31,32,34,35,37,38,39,41,42,43,44,46,47,49,50,51,52,53,55,56 -f csv -o data/raw/csv/mun.csv lattice -back -shift "" -scale 60 data/raw/NWS_Census_results_BOOKLET_19072022_GR.pdf
 
 # Post-process
 poetry run python extraction/extract_municipalities.py
