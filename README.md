@@ -2,9 +2,11 @@
 
 2021 population numbers by administrative region (Περιφέρειες) and by municipality (Δήμοι) in Greece.
 
-Sourced from Hellenic Statistical Authority's **provisional** data as announced in [this PDF](https://www.statistics.gr/documents/20181/17776954/NWS_Census_results_BOOKLET_19072022_GR.pdf/e819abde-a3ae-2418-bb5a-1c5365310e3e?t=1658222922216) (sigh).
+Sourced from the Hellenic Statistical Authority (ELSTAT) **provisional** data as announced in [this PDF](https://www.statistics.gr/documents/20181/17776954/NWS_Census_results_BOOKLET_19072022_GR.pdf/e819abde-a3ae-2418-bb5a-1c5365310e3e?t=1658222922216) (sigh).
 
-NOTE: The census results are still provisional. As per the Authority (p. 61), logical and completeness checks are due, as well as cross-checks with national registries for quality control.
+NOTE: The census results are still provisional. As per the Authority (op. cit., p. 61), logical and completeness checks are due, as well as cross-checks with national registries for quality control.
+
+This project serves to provide the provisional results in a machine-readable format until they are officially published by the Hellenic Statistical Authority. Full census data are expected to be published in an appropriate technical format along with metadata at the [EU Census Hub](https://ec.europa.eu/CensusHub2/) no later than April 1, 2024.
 
 ## Data
 
@@ -18,7 +20,7 @@ Data is currently available in CSV format and includes the following fields:
 * 2021 & 2011 male population.
 * 2021 & 2011 female population.
 
-## About the project
+## Technologies
 
 [Camelot](https://github.com/camelot-dev/camelot) for extracting tables + some Python post-processing.
 
