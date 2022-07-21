@@ -68,10 +68,8 @@ def _extract_pop2011(text: str) -> Tuple[str, int]:
 
 def main():
     # reverse lookup name => code
-    mun_codes = {}
     with open(MUN_CODES_PATH, 'r', encoding='utf-8') as fp:
-        for code, name in csv.reader(fp):
-            mun_codes[name] = code
+        mun_codes = {name: code for code, name in csv.reader(fp)}
 
     with open(OUT_PATH, 'w', newline='') as outfile:
         fieldnames = [

@@ -53,10 +53,8 @@ def _extract_pops(text: str) -> Tuple[str, List[int]]:
 
 def main():
     # reverse lookup name => code
-    adm_codes = {}
     with open(ADM_CODES_PATH, 'r', encoding='utf-8') as fp:
-        for code, name in csv.reader(fp):
-            adm_codes[name] = code
+        adm_codes = {name: code for code, name in csv.reader(fp)}
 
     with open(OUT_PATH, 'w', newline='') as outfile:
         fieldnames = [
