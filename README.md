@@ -8,6 +8,9 @@ NOTE: The census results are still provisional. As per the Authority (p. 61), lo
 
 ## Data
 
+* [Municipality populations (Δήμοι)](data/municipalities/populations.csv)
+* [Administrative region populations (Περιφέρειες)](data/adm_regions/populations.csv)
+
 Data is currently available in CSV format and includes the following fields:
 * Area code (ELSTAT code for municipalities, NUTS2 2021 for administrative regions).
 * Area name.
