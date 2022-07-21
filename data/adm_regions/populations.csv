@@ -1,4 +1,4 @@
-region_code,region_name,pop_total_2021,pop_total_2011,pop_men_2021,pop_men_2011,pop_women_2021,pop_women_2011
+nuts2_region_code,region_name,pop_total_2021,pop_total_2011,pop_men_2021,pop_men_2011,pop_women_2021,pop_women_2011
 EL51,ΑΝΑΤΟΛΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ ΚΑΙ ΘΡΑΚΗΣ,562069,608182,275340,299643,286729,308539
 EL52,ΚΕΝΤΡΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ,1792069,1882108,861420,912693,930649,969415
 EL53,ΔΥΤΙΚΗΣ ΜΑΚΕΔΟΝΙΑΣ,255056,283689,126711,141779,128345,141910

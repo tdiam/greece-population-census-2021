@@ -58,7 +58,7 @@ def main():
 
     with open(OUT_PATH, 'w', newline='') as outfile:
         fieldnames = [
-            'region_code', 'region_name', 'pop_total_2021',
+            'nuts2_region_code', 'region_name', 'pop_total_2021',
             'pop_total_2011', 'pop_men_2021', 'pop_men_2011', 'pop_women_2021',
             'pop_women_2011',
         ]
@@ -71,7 +71,7 @@ def main():
                     region_name, pops = _extract_pops(row[1])
                     try:
                         writer.writerow({
-                            'region_code': adm_codes.get(region_name, ''),
+                            'nuts2_region_code': adm_codes.get(region_name, ''),
                             'region_name': region_name,
                             'pop_total_2021': pops[1],
                             'pop_total_2011': pops[0],

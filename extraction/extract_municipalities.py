@@ -73,7 +73,7 @@ def main():
 
     with open(OUT_PATH, 'w', newline='') as outfile:
         fieldnames = [
-            'municipality_code', 'municipality_name', 'pop_total_2021',
+            'elstat_municipality_code', 'municipality_name', 'pop_total_2021',
             'pop_total_2011', 'pop_men_2021', 'pop_men_2011', 'pop_women_2021',
             'pop_women_2011',
         ]
@@ -99,7 +99,7 @@ def main():
                     mun, pop2011 = _extract_pop2011(row[0])
                     try:
                         writer.writerow({
-                            'municipality_code': mun_codes.get(mun, ''),
+                            'elstat_municipality_code': mun_codes.get(mun, ''),
                             'municipality_name': mun,
                             'pop_total_2021': _parse_number(row[1]),
                             'pop_total_2011': pop2011,
