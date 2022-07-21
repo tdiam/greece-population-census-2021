@@ -11,9 +11,9 @@ NOTE: The census results are still provisional. As per the Authority (p. 61), lo
 Data is currently available in CSV format and includes the following fields:
 * Area code (ELSTAT code for municipalities, NUTS2 2021 for administrative regions).
 * Area name.
-* 2021/2011 total population.
-* 2021/2011 male population.
-* 2021/2011 female population.
+* 2021 & 2011 total population.
+* 2021 & 2011 male population.
+* 2021 & 2011 female population.
 
 ## About the project
 
